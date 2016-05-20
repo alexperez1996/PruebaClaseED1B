@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.bPonerMensaje = new System.Windows.Forms.Button();
+            this.bLoco = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bPonerMensaje
@@ -41,11 +42,22 @@
             this.bPonerMensaje.UseVisualStyleBackColor = true;
             this.bPonerMensaje.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bLoco
+            // 
+            this.bLoco.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.bLoco.Location = new System.Drawing.Point(167, 28);
+            this.bLoco.Name = "bLoco";
+            this.bLoco.Size = new System.Drawing.Size(113, 167);
+            this.bLoco.TabIndex = 1;
+            this.bLoco.Text = "Locura";
+            this.bLoco.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 478);
+            this.Controls.Add(this.bLoco);
             this.Controls.Add(this.bPonerMensaje);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button bPonerMensaje;
+        private System.Windows.Forms.Button bLoco;
     }
 }
 

@@ -19,7 +19,7 @@ namespace App_para_repositorio_1B
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Estoy entusiasmado con github");
         }
     }
 }
